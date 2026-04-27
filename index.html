@@ -1,1 +1,275 @@
-Index  
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICSE Study Hub | Class 9 & 10 Resources</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .heading-font {
+            font-family: 'Playfair Display', sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-white border-b sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-2xl font-bold">📘</div>
+                <div>
+                    <span class="heading-font text-2xl font-bold text-blue-700">ICSE Study Hub</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#subjects" class="hover:text-blue-600 transition-colors">Subjects</a>
+                <a href="#resources" class="hover:text-blue-600 transition-colors">Resources</a>
+                <a href="#videos" class="hover:text-blue-600 transition-colors">YouTube</a>
+                <a href="https://github.com/YOUR-USERNAME/YOUR-REPO/wiki" target="_blank" class="hover:text-blue-600 transition-colors">Wiki</a>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <a href="https://www.youtube.com/@YOURCHANNEL" target="_blank" 
+                   class="flex items-center gap-2 bg-red-600 text-white px-5 py-2.5 rounded-2xl text-sm font-semibold hover:bg-red-700 transition-all">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>Watch Now</span>
+                </a>
+                <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank"
+                   class="px-5 py-2.5 border border-gray-300 rounded-2xl text-sm font-medium hover:bg-gray-100 transition-all flex items-center gap-2">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-24">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-4 py-2 rounded-3xl mb-6">
+                <span class="text-sm font-medium">🎯 ICSE Class 9 & 10 • 2027-2028</span>
+            </div>
+            
+            <h1 class="heading-font text-6xl md:text-7xl font-bold leading-tight mb-6">
+                Master ICSE.<br>
+                <span class="text-blue-200">Score 90+</span>
+            </h1>
+            
+            <p class="text-xl md:text-2xl text-blue-100 max-w-2xl mx-auto mb-10">
+                Free high-quality notes, solved PYQs, mind maps, and video explanations — all in one place.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#subjects" 
+                   class="bg-white text-blue-700 px-8 py-4 rounded-3xl font-semibold text-lg hover:bg-blue-50 transition-all flex items-center justify-center gap-3">
+                    Browse Resources
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="https://www.youtube.com/@YOURCHANNEL" target="_blank"
+                   class="border border-white/70 hover:bg-white/10 px-8 py-4 rounded-3xl font-semibold text-lg transition-all flex items-center justify-center gap-3">
+                    <i class="fa-brands fa-youtube"></i>
+                    Visit YouTube Channel
+                </a>
+            </div>
+            
+            <div class="mt-12 flex justify-center gap-8 text-sm opacity-90">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check"></i>
+                    <span>100% Free</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Board-Aligned</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Updated 2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Grid -->
+    <section id="subjects" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="heading-font text-4xl font-bold mb-3">Subjects We Cover</h2>
+                <p class="text-gray-600 max-w-md mx-auto">Comprehensive resources for every ICSE subject</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Subject Cards -->
+                <div class="card-hover bg-white border border-gray-200 rounded-3xl p-8 text-center">
+                    <div class="text-5xl mb-4">📐</div>
+                    <h3 class="font-semibold text-xl mb-1">Mathematics</h3>
+                    <p class="text-sm text-gray-500">Algebra • Geometry • Trigonometry</p>
+                </div>
+                
+                <div class="card-hover bg-white border border-gray-200 rounded-3xl p-8 text-center">
+                    <div class="text-5xl mb-4">🧪</div>
+                    <h3 class="font-semibold text-xl mb-1">Physics</h3>
+                    <p class="text-sm text-gray-500">Full theory + Numericals</p>
+                </div>
+                
+                <div class="card-hover bg-white border border-gray-200 rounded-3xl p-8 text-center">
+                    <div class="text-5xl mb-4">🧬</div>
+                    <h3 class="font-semibold text-xl mb-1">Chemistry</h3>
+                    <p class="text-sm text-gray-500">Organic • Inorganic • Practical</p>
+                </div>
+                
+                <div class="card-hover bg-white border border-gray-200 rounded-3xl p-8 text-center">
+                    <div class="text-5xl mb-4">🌿</div>
+                    <h3 class="font-semibold text-xl mb-1">Biology</h3>
+                    <p class="text-sm text-gray-500">Diagrams + Theory</p>
+                </div>
+                
+                <div class="card-hover bg-white border border-gray-200 rounded-3xl p-8 text-center">
+                    <div class="text-5xl mb-4">💻</div>
+                    <h3 class="font-semibold text-xl mb-1">Computer Apps</h3>
+                    <p class="text-sm text-gray-500">Java Programs + Solutions</p>
+                </div>
+                
+                <div class="card-hover bg-white border border-gray-200 rounded-3xl p-8 text-center">
+                    <div class="text-5xl mb-4">📖</div>
+                    <h3 class="font-semibold text-xl mb-1">English</h3>
+                    <p class="text-sm text-gray-500">Literature + Grammar</p>
+                </div>
+                
+                <div class="card-hover bg-white border border-gray-200 rounded-3xl p-8 text-center">
+                    <div class="text-5xl mb-4">🏛️</div>
+                    <h3 class="font-semibold text-xl mb-1">History & Civics</h3>
+                    <p class="text-sm text-gray-500">Maps + PYQs</p>
+                </div>
+                
+                <div class="card-hover bg-white border border-gray-200 rounded-3xl p-8 text-center">
+                    <div class="text-5xl mb-4">🗺️</div>
+                    <h3 class="font-semibold text-xl mb-1">Geography</h3>
+                    <p class="text-sm text-gray-500">Topography + Climate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="heading-font text-4xl font-bold mb-6">Everything You Need in One Place</h2>
+                    <div class="space-y-6">
+                        <div class="flex gap-5">
+                            <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0">📝</div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Chapter-wise Notes</h4>
+                                <p class="text-gray-600">Clear, concise, and exam-focused notes with diagrams.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0">📚</div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Solved PYQs</h4>
+                                <p class="text-gray-600">Last 10+ years board questions with detailed solutions.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0">🧠</div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Mind Maps & Formula Sheets</h4>
+                                <p class="text-gray-600">Quick revision tools for last-minute prep.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-3xl p-8 shadow-xl">
+                    <h3 class="font-semibold mb-6 text-center text-xl">Popular Downloads</h3>
+                    <div class="space-y-4">
+                        <a href="#" class="block p-4 hover:bg-gray-50 rounded-2xl border border-transparent hover:border-gray-200 transition-all flex justify-between items-center group">
+                            <span class="font-medium">ICSE Class 10 Maths Formula Sheet 2026</span>
+                            <span class="text-blue-600 group-hover:translate-x-1 transition">↓ PDF</span>
+                        </a>
+                        <a href="#" class="block p-4 hover:bg-gray-50 rounded-2xl border border-transparent hover:border-gray-200 transition-all flex justify-between items-center group">
+                            <span class="font-medium">Physics Numericals Solved (All Chapters)</span>
+                            <span class="text-blue-600 group-hover:translate-x-1 transition">↓ PDF</span>
+                        </a>
+                        <a href="#" class="block p-4 hover:bg-gray-50 rounded-2xl border border-transparent hover:border-gray-200 transition-all flex justify-between items-center group">
+                            <span class="font-medium">Java Programs for Board Practical</span>
+                            <span class="text-blue-600 group-hover:translate-x-1 transition">↓ ZIP</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- YouTube Teaser -->
+    <section id="videos" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="heading-font text-4xl font-bold mb-4">Learn Better with Videos</h2>
+            <p class="text-gray-600 mb-10">Full concept explanations, doubt clearing & exam strategies</p>
+            
+            <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div class="bg-gray-100 rounded-3xl overflow-hidden card-hover">
+                    <div class="aspect-video bg-gray-300 flex items-center justify-center text-6xl">▶️</div>
+                    <div class="p-5 text-left">
+                        <p class="font-medium">Force & Laws of Motion - Full Chapter</p>
+                        <p class="text-sm text-gray-500">Class 9 Physics • 45 min</p>
+                    </div>
+                </div>
+                <!-- Add more video placeholders as needed -->
+            </div>
+            
+            <a href="https://www.youtube.com/@YOURCHANNEL" target="_blank"
+               class="mt-10 inline-flex items-center gap-3 text-blue-600 font-semibold hover:text-blue-700">
+                <span>Watch all videos on YouTube</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-2xl">📘</div>
+                    <div class="text-white heading-font text-2xl font-bold">ICSE Study Hub</div>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-sm">Companion website for our YouTube channel</p>
+                    <p class="text-xs mt-2">Made with ❤️ for ICSE students of India</p>
+                </div>
+                
+                <div class="flex gap-6 text-2xl">
+                    <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" class="hover:text-white transition"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/@YOURCHANNEL" target="_blank" class="hover:text-white transition"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-xs">
+                © 2026 ICSE Study Hub • All resources are free for educational use
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
